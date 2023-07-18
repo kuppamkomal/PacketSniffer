@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-This script is a modified version of the the packet_sniffer_shay.py
+This script is a modified version of the packet_sniffer_shay.py
 that came with SPSE course.
   
   
@@ -25,14 +25,4 @@ To dump in/out HTTP traffic from/to 192.168.1.15 to the console:
 python packet_sniffer.py host 192.168.1.15 tcp port 80
 ```
 
-Author
-------
-Oleg Mitrofanov (reider-roque) 2015
 
-References
-----------
-IP reference: http://www.networksorcery.com/enp/protocol/ip.htm  
-TCP reference: http://www.networksorcery.com/enp/protocol/tcp.htm  
-Ethernet frame header format: http://en.wikipedia.org/wiki/Ethernet_frame  
-IP header format: http://en.wikipedia.org/wiki/IPv4  
-TCP header format: http://en.wikipedia.org/wiki/Transmission_Control_Protocol  
